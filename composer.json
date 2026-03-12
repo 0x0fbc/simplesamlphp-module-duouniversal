@@ -16,7 +16,7 @@
         "ext-date": "*",
         "ext-session": "*",
 
-        "duosecurity/duo_universal_php": "^1.0.2",
+        "duosecurity/duo_universal_php": "^1.1",
         "symfony/http-foundation": "^5.4 || ^6.0"
     },
     "require-dev": {
