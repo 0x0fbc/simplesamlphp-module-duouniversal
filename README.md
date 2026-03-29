@@ -11,12 +11,10 @@ Just execute the following command in the root of your SimpleSAMLphp
 installation:
 
 ```bash
-composer require simplesamlphp/simplesamlphp-module-duouniversal:dev-master
+composer require 0x0fbc/simplesamlphp-module-duouniversal:dev-feature/upgrade-2.0
 ```
 
-where `dev-master` instructs Composer to install the `master` branch from the
-Git repository. See the [releases][releases]
-available if you want to use a stable version of the module.
+where `dev-feature/upgrade-2.0` instructs Composer to install the `feature/upgrade-2.0` branch from the Git repository.
 
 Next thing you need to do is to enable the module: in `config.php`,
 search for the `module.enable` key and set `duouniversal` to true:
